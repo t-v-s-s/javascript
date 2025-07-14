@@ -1,0 +1,25 @@
+const name = "Tanvi";
+const repoCount = 50
+console.log(name + repoCount +  " value")
+
+console.log(`Hello my name is  ${name} and my repo count is ${repoCount}`);
+//----------
+const gameName = new String("Mohit"); //(another way to create a string)
+console.log(gameName); // String object
+gameName[0] = "m"; // This will not change the string as strings are immutable
+
+console.log(gameName.length); // 5
+console.log(gameName.toUpperCase()); // MOHIT
+console.log(gameName.toLowerCase()); // mohit               
+console.log(gameName.charAt(0)); // M
+console.log(gameName.indexOf("o")); // 1
+console.log(gameName.lastIndexOf("o")); // 2
+console.log(gameName.slice(0, 3)); // Moh
+console.log(gameName.substring(0, 3)); // Moh
+console.log(gameName.split("o")); // [ 'M', 'hit' ]
+console.log(gameName.replace("o", "a")); // Mahit
+console.log(gameName.includes("hit")); // true
+console.log(gameName.startsWith("Mo")); // true
+console.log(gameName.endsWith("it")); // true           
+
+
